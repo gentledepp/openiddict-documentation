@@ -76,7 +76,7 @@ supports OpenID Connect/OAuth 2.0 server metadata.
 
 ### The server provides a configuration endpoint
 
-When the server supports supports the OpenID Connect/OAuth 2.0 server metadata specification(s), add an `Issuer` attribute to `<Environment>`
+When the server supports the OpenID Connect/OAuth 2.0 server metadata specification(s), add an `Issuer` attribute to `<Environment>`
 corresponding to the provider address without the `/.well-known/openid-configuration` part. For instance, Google exposes its discovery document
 at `https://accounts.google.com/.well-known/openid-configuration` so the correct issuer to use is `https://accounts.google.com/`:
 
