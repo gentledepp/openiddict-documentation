@@ -52,9 +52,18 @@ export default defineConfig({
             text: "Getting started",
             link: "/guides/getting-started/",
             items: [
-              { text: "Creating your own server instance", link: "/guides/getting-started/creating-your-own-server-instance" },
-              { text: "Implementing token validation in your APIs", link: "/guides/getting-started/implementing-token-validation-in-your-apis" },
-              { text: "Integrating with a remote server instance", link: "/guides/getting-started/integrating-with-a-remote-server-instance" }
+              { text: "Creating your authorization server", link: "/guides/getting-started/creating-your-own-server-instance" },
+              { text: "Securing your APIs", link: "/guides/getting-started/implementing-token-validation-in-your-apis" },
+              { 
+                text: "Using OpenIddict client stack", 
+                link: "/guides/getting-started/integrating-with-a-remote-server-instance",
+                items: [
+                  { text: "Non-interactive client in any .NET app", link: "/guides/getting-started/non-interactive-flow" },
+                  { text: "Interactive client in ASP.NET Core", link: "/guides/getting-started/interactive-flow-aspnetcore" },
+                  { text: "Interactive client in desktop app", link: "/guides/getting-started/interactive-flow-desktop" },
+                ]  
+              },
+              { text: "Using dev tunnels", link: "/guides/getting-started/using-dev-tunnels" }
             ]
           },
           {

@@ -1,4 +1,6 @@
-# Implementing token validation in your APIs <Badge type="tip" text="validation" />
+# Securing your APIs <Badge type="tip" text="validation" />
+
+This guide will show you how to add OpenIddict to your Asp.Net Core web application in order to guard your APIs.
 
 > [!NOTE]
 > This guide assumes you're using ASP.NET Core to host your APIs. For samples showing how to use the OpenIddict validation feature in

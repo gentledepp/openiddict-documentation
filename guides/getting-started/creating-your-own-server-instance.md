@@ -1,4 +1,6 @@
-# Creating your own server instance <Badge type="danger" text="server" />
+# Creating your authorization server <Badge type="danger" text="server" />
+
+This guide will show you how to use OpenIddict to turn your Asp.Net Core web application into an authorization server.
 
 > [!NOTE]
 > This guide assumes you're using ASP.NET Core to host your authorization server. For samples showing how to use the OpenIddict server feature in
